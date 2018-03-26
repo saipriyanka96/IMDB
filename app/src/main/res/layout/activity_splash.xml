@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+</RelativeLayout>
+<!--LinearLayout is a view group that aligns all children in a single direction, vertically or horizontally
+android:layout_height:Specifies the basic height of the view.
+android:layout_width:Specifies the basic width of the view
+match_parent:The view should be as big as its parent (minus padding).
+ android:orientation:Should the layout be a column or a row? Use "horizontal" for a row, "vertical" for a column. The default is horizontal.
+
+-->

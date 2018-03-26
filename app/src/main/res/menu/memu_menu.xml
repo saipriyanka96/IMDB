@@ -1,0 +1,52 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title=" My WatchList "
+        android:id="@+id/item1"/>
+    <item android:title="My Favorites"
+        android:id="@+id/item2"/>
+    <item android:title="Refresh"
+        android:id="@+id/item3"/>
+
+
+    <item android:id="@+id/secondicon"
+        android:title="top Rated"
+        app:showAsAction="always"
+        android:icon="@drawable/forward">
+
+        <menu
+            >
+
+            <item android:title="Most Popular"
+                android:id="@+id/item4"
+
+                />
+            <item android:title="Upcoming Movies"
+                android:id="@+id/item5"
+
+                />
+            <item android:title="Latest Movies"
+                android:id="@+id/item6"
+
+                />
+            <item android:title="Now Playing"
+                android:id="@+id/item7"
+
+                />
+            <item android:title="Top Rated"
+                android:id="@+id/item8"
+
+                />
+
+        </menu>
+    </item>
+
+
+</menu>
+<!--Menus are a common user interface component in many types of applications
+<menu>
+Defines a Menu, which is a container for menu items. A <menu> element must be the root node for the file and can hold one or more <item> and <group> elements.
+<item>
+Creates a MenuItem, which represents a single item in a menu. This element may contain a nested <menu> element in order to create a submenu.
+-->

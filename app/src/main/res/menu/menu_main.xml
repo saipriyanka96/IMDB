@@ -1,0 +1,64 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MovieList">
+    <item
+        android:title="@string/filter"
+        android:icon="@mipmap/ic_menu_filter"
+        app:showAsAction="always" >
+
+        <menu>
+
+            <item
+                android:id="@+id/most_popular"
+                android:orderInCategory="100"
+                android:title="@string/mostPop"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/upcoming_movies"
+                android:orderInCategory="200"
+                android:title="@string/upcoming"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/latest_movies"
+                android:orderInCategory="300"
+                android:title="@string/latest"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/now_playing"
+                android:orderInCategory="400"
+                android:title="@string/now"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/top_rated"
+                android:orderInCategory="500"
+                android:title="@string/top"
+                app:showAsAction="never" />
+
+        </menu>
+
+    </item>
+
+    <item
+        android:id="@+id/watchlist"
+        android:orderInCategory="100"
+        android:title="@string/watchlist"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/favorites"
+        android:orderInCategory="200"
+        android:title="@string/favorites"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/refresh"
+        android:orderInCategory="300"
+        android:title="@string/refresh"
+        app:showAsAction="never" />
+
+</menu>
